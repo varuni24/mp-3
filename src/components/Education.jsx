@@ -33,44 +33,49 @@ const Logo = styled.img`
   height: 96px;
 `;
 
+const EduContent = styled.div`
+  display: "flex";
+  gap: "16px";
+`;
+
 const Education = () => (
   <>
     <PageTitle>Educational Background</PageTitle>
 
     <EduContainer>
       <EduCard>
-        <div style={{ display: "flex", gap: "16px" }}>
+        <EduContent>
           <Logo src="/images/bu.png" alt="BU" />
           <div>
             <h4>Bachelor of Arts in Computer Science</h4>
             <p>Boston University, MA</p>
             <p>GPA: 3.9 / 4.0</p>
           </div>
-        </div>
+        </EduContent>
         <p>Present</p>
       </EduCard>
 
       <EduCard>
-        <div style={{ display: "flex", gap: "16px" }}>
+        <EduContent>
           <Logo src="/svg/uw.svg" alt="UW" />
           <div>
             <h4>Bachelor of Science in Computer Science</h4>
             <p>University of Waterloo, Canada</p>
             <p>GPA: 3.85 / 4.0</p>
           </div>
-        </div>
+        </EduContent>
         <p>May 2024</p>
       </EduCard>
 
       <EduCard>
-        <div style={{ display: "flex", gap: "16px" }}>
+        <EduContent>
           <Logo src="/images/dpsd.png" alt="DPS Dubai" />
           <div>
             <h4>High School</h4>
             <p>Delhi Private School, Dubai</p>
             <p>GPA: 3.85 / 4.0</p>
           </div>
-        </div>
+        </EduContent>
         <p>May 2021</p>
       </EduCard>
     </EduContainer>
