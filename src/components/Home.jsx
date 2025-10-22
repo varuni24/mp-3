@@ -40,13 +40,6 @@ const AboutContent = styled.div`
   text-align: justify;
   gap: 16px;
   width: 100%;
-  h3 {
-    font-size: calc(16px + 0.5vmin);
-  }
-
-  p {
-    font-size: calc(14px + 0.3vmin);
-  }
 `;
 
 const AboutH3 = styled.h3`
